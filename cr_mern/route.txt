@@ -1,0 +1,6 @@
+route
+controller 
+view: client bsh tahki maa controller
+ylansi u ygoul l kol had shnou yaaml :server
+houa elli bsh ynasaq lkhedma (houa eli ynedi controller):route
+reelement faire le travail: controller
