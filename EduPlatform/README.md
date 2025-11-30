@@ -163,7 +163,7 @@ Messages attendus :
 ### 1️⃣ Register -- Inscription
 
 POST\
-http://localhost:5000/api/auth/register
+http://localhost:3000/api/auth/register
 
 ``` json
 {
@@ -181,7 +181,7 @@ http://localhost:5000/api/auth/register
 ### 2️⃣ Login -- Connexion
 
 POST\
-http://localhost:5000/api/auth/login
+http://localhost:3000/api/auth/login
 
 ``` json
 {
@@ -208,7 +208,7 @@ http://localhost:5000/api/auth/login
 ### 4️⃣ Accès à une route protégée
 
 GET\
-http://localhost:5000/api/users/profile
+http://localhost:3000/api/users/profile
 
 Header:
 
