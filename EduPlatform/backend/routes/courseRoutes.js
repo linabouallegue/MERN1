@@ -28,6 +28,6 @@ router.route('/:courseId/students')
 
 router.route('/:courseId/reviews')
   .post(protect, addReview)
-  .get(getCourseReviews);
+  .get(protect, getCourseReviews);
 
 module.exports = router;
