@@ -1,0 +1,36 @@
+/* Reset de base */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Corps de page */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: #0f172a; /* fond sombre neutre */
+  color: #f9fafb;
+}
+
+/* Liens */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Boutons : tu peux adapter ou laisser vide si tu préfères gérer en inline-style */
+button {
+  font-family: inherit;
+}

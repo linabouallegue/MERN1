@@ -1,0 +1,40 @@
+/* RESET TOTAL */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* BODY */
+body {
+  background-color: #0f172a;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Avenir, Helvetica, Arial, sans-serif;
+  color: #f9fafb;
+}
+
+/* SUPPRESSION DU SCROLL HORIZONTAL */
+body {
+  overflow-x: hidden;
+}
+
+/* Liens */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Boutons */
+button {
+  font-family: inherit;
+}
